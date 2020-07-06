@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    background: url(https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80) no-repeat center center fixed;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #04A1BF;
+}
+
+#second {
+	color: #df8a51;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+#enter {
+	outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #04A1BF;
+	background-color: #025F70;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover {
+    background-color: #02798F;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+    border: none;
+    outline: none;
+}
+
+
+.done {
+	cursor: pointer;
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	outline: none;
+	display: none;
+}
